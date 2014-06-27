@@ -79,7 +79,6 @@ define(["app"
 //                                        else {
 //                                            data.id = 1;
 //                                        }
-
                                         newSondage.save(data, {
                                             success: function(reponse, response, options) {
                                                 console.log(reponse);
