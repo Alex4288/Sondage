@@ -186,7 +186,7 @@ app.post('/api/sondage_contenus', function(request, response) {
 
 //Créer Une Nouvelle Question (Utilisateur).
 app.post('/api/questions', function(request, response) {
-//    console.log(request.body);
+
     var sondage_Question = new Sondage_Question_Model({
         sondage_id: request.body.sondage_id,
         question: request.body.question,
